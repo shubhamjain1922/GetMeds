@@ -1,0 +1,92 @@
+.loginNav-container {
+	width: 100vw;
+	height: 8vh;
+	display: flex;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginNav-subcont {
+	width: 80%;
+	height: 80%;
+	background-color: white;
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(29.9011px);
+	/* Note: backdrop-filter has minimal browser support */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 35px;
+}
+
+.loginNav-title {
+	width: 25%;
+}
+
+.loginNav-title-logo {
+	font-family: "Rubik";
+}
+
+.loginNav-centercont {
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+}
+
+.loginNav-freedownload {
+	width: 25%;
+	display: flex;
+	height: 60%;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginNav-freedownload-btn {
+	height: 100%;
+	width: 50%;
+	background: linear-gradient(135deg, #3a416f 0%, #141727 100%);
+	border-radius: 17px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.loginNav-contentlist {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginNav-contentlist > span {
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 420px) {
+	.loginNav-centercont {
+		display: none;
+	}
+
+	.loginNav-title {
+		width: 40%;
+		padding-top: 10px;
+	}
+
+	.loginNav-subcont {
+		justify-content: space-around;
+	}
+
+	.loginNav-freedownload {
+		width: 50%;
+		padding-top: 10px;
+	}
+
+	.loginNav-freedownload-btn {
+		width: 100%;
+	}
+}

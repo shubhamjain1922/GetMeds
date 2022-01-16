@@ -1,0 +1,162 @@
+.medicine-input {
+	display: flex;
+	flex-direction: column;
+}
+
+.medicine-input-container {
+	display: flex;
+}
+
+.list-name-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.symptoms-input {
+	display: flex;
+	flex-direction: column;
+}
+
+.modal-content-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.modal-dialog {
+	max-width: 60vw !important;
+}
+
+.modal-left {
+	width: 60%;
+}
+
+.modal-right {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	border-left: 1px solid #dee2e6;
+	padding: 10px;
+}
+
+.modal-right-order-details {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.modal-right-heading {
+	width: 100%;
+	font-size: 25px;
+	font-weight: 700;
+	font-family: "Rubik";
+	text-align: center;
+}
+
+.modal-right-label {
+	font-family: "Rubik";
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.model-left-label {
+	font-family: "Rubik";
+	font-weight: 500;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.modal-title {
+	font-weight: 700;
+}
+
+.button-contain {
+	width: 100%;
+	display: flex;
+	margin: 5px 0;
+}
+
+.model-left-button {
+	background: linear-gradient(135deg, #3a416f 0%, #141727 100%);
+	box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.12),
+		0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 120%;
+	cursor: pointer;
+	padding: 1% 10px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+
+.model-left-input-field {
+	width: 70%;
+	border-radius: 20px;
+	padding: 7px 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #dee2e6;
+}
+
+.btn-close {
+	display: none;
+}
+
+.closebut {
+	padding: 7px 15px !important;
+	text-align: center;
+	box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.12),
+		0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+	border-radius: 6px;
+	font-weight: 500;
+}
+
+.addorderbut {
+	padding: 7px 13px;
+	text-align: center;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: #cb0c9f;
+	background: #ffffff;
+	border: 1px solid #cb0c9f;
+	box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.12),
+		0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+	border-radius: 6px;
+	font-weight: 500;
+}
+
+.medquant {
+	height: 40px;
+	margin-left: 10px;
+	border: 1px solid #dee2e6;
+	border-radius: 5px;
+}
+
+.modal-footer {
+	justify-content: flex-start;
+}
+
+.modal-right-symptomps-details {
+	margin-top: 20px;
+}
+
+.modal-right-text {
+	font-family: "Rubik";
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.modal-right-medicine-name {
+	font-weight: 500;
+}
+
+@media (max-width: 700px) {
+	.modal-content {
+		display: block;
+	}
+	.modal-left,
+	.modal-right {
+		width: 100%;
+	}
+}

@@ -1,0 +1,166 @@
+.con {
+	padding: 0;
+}
+.sidebar {
+	height: 100vh;
+	width: 100%;
+	background-color: red;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	background-color: #f2f4f7;
+}
+
+.coverimg {
+	/* height: auto; */
+	width: 100%;
+	min-height: 200px;
+	z-index: 1;
+	position: relative;
+}
+
+.profilewrap {
+	width: 90%;
+	height: 90px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(27.1828px);
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 2;
+	border-radius: 15px;
+	padding: 10px 20px;
+	margin-top: -100px;
+	margin-bottom: 30px;
+}
+
+.avatarimg {
+	height: 70px;
+	margin-right: 20px;
+	float: left;
+}
+
+.profileinfodiv {
+	float: left;
+}
+
+.profileinfoname {
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+
+.profileattrdiv {
+	height: 70px;
+	width: 100px;
+	float: right;
+	padding: 5px;
+	background: #ffffff;
+	box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.12),
+		0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+	border-radius: 8px;
+	position: relative;
+	margin-left: 15px;
+}
+
+.coinimg {
+	width: 36px;
+	float: left;
+}
+
+.profileinfoAddress {
+	color: #8c8c8c;
+}
+
+.coinvalue {
+	font-size: 27px;
+	font-weight: 700;
+	float: right;
+}
+
+.coininfo {
+	font-size: 15px;
+	position: absolute;
+	margin-bottom: 0;
+	font-weight: 500;
+	bottom: 5px;
+	text-align: center;
+}
+
+@media (max-width: 992px) {
+	.sidebar {
+		display: none;
+	}
+
+	.coverimg {
+		display: none;
+	}
+
+	.profilewrap {
+		margin-top: 20px;
+		padding: 10px 15px;
+	}
+
+	.avatarimg {
+		margin-right: 10px;
+	}
+
+	.profileinfoname {
+		font-size: 25px;
+	}
+
+	.profileattrdiv {
+		width: 80px;
+	}
+
+	.coinimg {
+		width: 30px;
+	}
+
+	.coinvalue {
+		font-size: 22px;
+	}
+
+	.coininfo {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 550px) {
+	.profilewrap {
+		margin-top: 20px;
+		padding: 10px 10px;
+		height: 85px;
+	}
+
+	.avatarimg {
+		margin-right: 5px;
+		height: 50px;
+	}
+
+	.profileinfoname {
+		font-size: 17px;
+	}
+
+	.profileattrdiv {
+		width: 60px;
+		height: 60px;
+		margin-left: 5px;
+	}
+
+	.coinimg {
+		width: 22px;
+	}
+
+	.coinvalue {
+		font-size: 15px;
+	}
+
+	.coininfo {
+		font-size: 9px;
+	}
+}

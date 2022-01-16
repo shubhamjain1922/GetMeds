@@ -1,0 +1,153 @@
+.login-container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+
+.login-left {
+	height: 80vh;
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-right {
+	height: 80vh;
+	width: 50vw;
+	display: flex;
+}
+
+.login-back {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.login-main {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.login-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login-header {
+	font-family: "Rubik";
+	font-size: 200%;
+	font-weight: 700;
+	color: #499eff;
+}
+
+.input-field {
+	padding: 3% 5%;
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	border-radius: 6px;
+	outline: none;
+	margin: 3% 0px;
+	border-radius: 3px;
+	height: 20%;
+	width: 98%;
+	font-size: 120%;
+}
+
+.login-button {
+	background: linear-gradient(135deg, #21d4fd 0%, #2152ff 100%);
+	box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.12),
+		0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+	border-radius: 8px;
+	border: none;
+	padding: 2% 0;
+	outline: none;
+	color: white;
+	font-size: 140%;
+	cursor: pointer;
+}
+
+.input-field:focus {
+	background: #ffffff;
+	border: 1px solid #e293d3;
+	box-shadow: 0px 0px 0px 2px rgba(226, 147, 211, 0.499809);
+	border-radius: 6px;
+}
+
+.bluetext {
+	color: #499eff;
+	padding-left: 1%;
+}
+
+.login-subtext {
+	padding: 5% 0;
+	font-family: "Nunito";
+	color: #8392ab;
+	font-size: 120%;
+}
+
+.remember-me {
+	padding: 3% 0;
+}
+
+.css-ahj2mt-MuiTypography-root {
+	font-family: "Nunito" !important;
+}
+
+.login-gotosignup {
+	padding: 3% 0;
+	font-size: 120%;
+}
+
+.login-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ui .error {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.list {
+	list-style: none;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	font-family: "Rubik";
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 420px) {
+	.login-right {
+		display: none;
+	}
+
+	.login-left {
+		width: 100vw;
+	}
+
+	.input-field {
+		padding: 3% 1%;
+	}
+
+	.login-footer-img {
+		display: flex;
+		width: 90%;
+		object-fit: contain;
+	}
+}

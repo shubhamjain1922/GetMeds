@@ -1,0 +1,101 @@
+.registerNav-container {
+	width: 100vw;
+	height: 8vh;
+	display: flex;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.registerNav-subcont {
+	width: 80%;
+	height: 80%;
+	background-color: transparent;
+	/* Note: backdrop-filter has minimal browser support */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 35px;
+}
+
+.registerNav-title {
+	width: 25%;
+	color: white;
+}
+
+.registerNav-title-logo {
+	font-family: "Rubik";
+}
+
+.registerNav-centercont {
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+	color: white;
+}
+
+.registerNav-freedownload {
+	width: 25%;
+	display: flex;
+	height: 60%;
+	align-items: center;
+	justify-content: center;
+}
+
+.registerNav-freedownload-btn {
+	height: 100%;
+	width: 50%;
+	background: #ffffff;
+	box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11),
+		0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+	border-radius: 17px;
+	color: black;
+	font-family: "Rubik";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.registerNav-contentlist {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.registerNav-contentlist > span {
+	margin-left: 5px;
+}
+
+.redirect-links-register {
+	text-decoration: none !important;
+	cursor: pointer;
+	color: white !important;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 420px) {
+	.registerNav-contentlist {
+		display: none;
+	}
+
+	.registerNav-centercont {
+		display: none;
+	}
+
+	.registerNav-title {
+		width: 45%;
+	}
+
+	.registerNav-freedownload {
+		width: 100%;
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
+	.registerNav-freedownload-btn {
+		width: 80%;
+	}
+}

@@ -1,0 +1,32 @@
+.topnav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: var(--topnav-height);
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
+.topnav__search {
+	position: relative;
+	display: flex;
+	align-items: center;
+	border-radius: var(--border-radius);
+}
+.topnav-btn {
+	flex: 1 1 auto;
+	padding: 10px 20px;
+	text-align: center;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: #cb0c9f;
+	background: #ffffff;
+	border: 1px solid #cb0c9f;
+	box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.12),
+		0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+	border-radius: 6px;
+	font-weight: 500;
+}
+.topnav-btn:hover {
+	background-position: right center;
+}

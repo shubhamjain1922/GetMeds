@@ -1,0 +1,223 @@
+.homeNav-container {
+	width: 100vw;
+	height: 8vh;
+	display: flex;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	align-items: center;
+}
+
+.homeNav-subcont {
+	width: 80%;
+	height: 80%;
+	background-color: white;
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(29.9011px);
+	/* Note: backdrop-filter has minimal browser support */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 35px;
+}
+
+.homeNav-title {
+	width: 25%;
+}
+
+.homeNav-title-logo {
+	font-family: "Libre Barcode 39 Extended Text", cursive;
+	font-size: 38px;
+	padding-left: 7%;
+}
+
+.homeNav-centercont {
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+}
+
+.homeNav-freedownload {
+	width: 25%;
+	display: flex;
+	height: 60%;
+	align-items: center;
+	justify-content: center;
+}
+
+.homeNav-freedownload-btn {
+	height: 100%;
+	width: 50%;
+	background: linear-gradient(135deg, #3a416f 0%, #141727 100%);
+	border-radius: 17px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.homeNav-contentlist {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.homeNav-contentlist > span {
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 420px) {
+	.homeNav-centercont {
+		display: none;
+	}
+
+	.homeNav-title {
+		width: 40%;
+		padding-top: 10px;
+	}
+
+	.homeNav-subcont {
+		justify-content: space-around;
+	}
+
+	.homeNav-freedownload {
+		width: 50%;
+		padding-top: 10px;
+	}
+
+	.homeNav-freedownload-btn {
+		width: 100%;
+	}
+}
+
+/*USER LOGGED IN CSS*/
+
+.homeNavUser-container {
+	width: 100vw;
+	height: 8vh;
+	display: flex;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	align-items: center;
+}
+
+.homeNavUser-subcont {
+	width: 80%;
+	height: 80%;
+	background-color: white;
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(29.9011px);
+	/* Note: backdrop-filter has minimal browser support */
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 35px;
+	margin-left: 10%;
+}
+
+.home-link {
+	cursor: pointer;
+}
+
+.homeNavUser-title {
+	width: 25%;
+}
+
+.homeNavUser-title-logo {
+	font-family: "Libre Barcode 39 Extended Text", cursive;
+	font-size: 38px;
+	padding-left: 7%;
+}
+
+.homeNavUser-centercont {
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 20px;
+}
+
+.homeNavUser-freedownload {
+	width: 25%;
+	display: flex;
+	height: 60%;
+	align-items: center;
+	justify-content: center;
+}
+
+.homeNavUser-freedownload-btn {
+	height: 100%;
+	width: 50%;
+	background: linear-gradient(135deg, #3a416f 0%, #141727 100%);
+	border-radius: 17px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.homeNavUser-contentlist {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.homeNavUser-contentlist > span {
+	margin-left: 5px;
+}
+
+.logout-btn {
+	font-family: "Bona Nova", serif;
+	border: none;
+	font-size: 20px;
+	border-radius: 17px;
+	background: linear-gradient(135deg, #21d4fd 0%, #2152ff 100%);
+	outline: none;
+	color: white;
+	padding: 0 30px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.logout-btn:hover {
+	font-size: 27px;
+	transition: all 0.3s;
+}
+
+.navbar-icons {
+	height: 20px;
+}
+
+.profile-icon {
+	padding-top: 3px;
+	height: 30px;
+}
+
+@media screen and (max-width: 420px) {
+	.homeNavUser-centercont {
+		display: none;
+	}
+
+	.homeNavUser-title {
+		width: 40%;
+		padding-top: 10px;
+	}
+
+	.homeNavUser-subcont {
+		justify-content: space-around;
+	}
+
+	.homeNavUser-freedownload {
+		width: 50%;
+		padding-top: 10px;
+	}
+
+	.homeNavUser-freedownload-btn {
+		width: 100%;
+	}
+}

@@ -1,0 +1,103 @@
+.transcon {
+    height: 230px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(26, 25, 25,0.7); 
+    border-radius: 10px;
+  }
+
+.transheader {
+    height: 35px;
+}
+
+.transhead {
+    font-family: 'Rubik';
+    font-size: 17px;
+    color: #252F40;
+    float: left;
+}
+
+.transdatediv {
+    float: right;
+    font-family: 'Rubik';
+    font-size: 12px;
+    color: rgb(116, 114, 114);
+}
+
+.transdateicon {
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.transdiv {
+    height: 70px;
+    width: 100%;
+    padding: 10px 0;
+    /* border: 1px solid black; */
+}
+
+.transicon {
+    height: 35px;
+    float: left;
+    margin-top: 5px;
+}
+
+.transplusicon {
+    height: 30px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.transinfodiv {
+    float: left;
+    margin-left: 10px;
+}
+
+.transname {
+    font-weight: bold;
+    font-family: 'Rubik';
+    font-size: 18px;
+    letter-spacing: 0.387234px;
+    color: #252F40;
+    margin-bottom: 0;
+}
+
+.transdateinfo {
+    font-family: 'Rubik';
+    font-size: 13px;
+    color: #67748E;
+}
+
+.minustrans,.plustrans {
+    float: right;
+    margin-top: 7px;
+    margin-right: 2px;
+    font-family: 'Rubik';
+    font-size: 18px;
+    color: #EA0606;
+    font-weight: 700;
+}
+
+.plustrans {
+    color: #82D616;
+}
+
+.transcoinicon {
+    height: 25px;
+    margin-top: -4px;
+    margin-left: 2px;
+}
